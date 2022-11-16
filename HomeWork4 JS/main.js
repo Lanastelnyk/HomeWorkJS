@@ -1,6 +1,4 @@
 
-
-
 // За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
 
 
@@ -130,23 +128,15 @@
 
 
 
-// let list = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js']
-// for (let i = 0; i < list.length; i++) {
-//     const listElement = list[i];
-//
-// } {
-//     document.write(`
-//  <ul>
-//  <li>html</li>
-//  <li>css</li>
-//  <li>javascript</li>
-// <li>mysql</li>
-//  <li>mongodb</li>
-//  <li>react</li>
-//  <li>angular</li>
-//  <li>node.js</li>
-//  </ul>`)
+// let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js']
+// get
+// document.write('<ul>' )
+// for (const listOfItem of listOfItems) {
+//     document.write('<li>' + listOfItem + '</li>' )
 // }
+// document.write('</ul>' )
+
+
 
 
 // Використовуючи данні з масиву, за допомоги document.write та циклу
@@ -270,3 +260,23 @@
 //     }
 //
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
