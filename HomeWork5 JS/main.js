@@ -38,6 +38,18 @@
 // створити функцію яка приймає масив та виводить кожен його елемент
 
 
+
+// let arr = [1,2,3,4]
+// function abc(array){
+//     for (const arrayElement of array) {
+//         document.write(arrayElement)
+//     }
+// }
+// abc(arr)
+
+
+
+
 // function arr (users){
 //     for (const user of users) {
 //         console.log(user)
@@ -86,6 +98,11 @@
 // створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий.
 // Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
 
+
+
+
+
+
 // function ulk(text,count){
 //
 //     document.write(`<ul>`)
@@ -106,7 +123,7 @@
 // function abc (arr) {
 //     document.write(`<ul>`)
 //     for (let i = 0; i < arr.length; i++) {
-//         const arrElement = arr[i];
+//
 //         document.write(`<li>${arr[i]}</li>`)
 //     }
 //     document.write(`</ul>`)
@@ -161,26 +178,39 @@
 // створити функцію яка повертає найменьше число з масиву
 
 
-// function number (a,b,c,){
-//     if (a<c){
-//        console.log(a)
+// let arr = [1,2,4,6,-4];
+//
+// function foo(array){
+//     let min = array[0];
+//     for (const item of array) {
+//         if (item < min) {
+//             min = item;
+//         }
 //     }
-// else if (a<b){
-//     console.log(a)
-//     }
-// else (!! '')
+//     return min;
 // }
-// number(10,20,45,)
+// console.log( foo(arr) );
+//
+
+// let arr = [1,2,4,6]
+// let result =Math.min(...arr)
+// console.log(result)
+
+
+
 
 
 // створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
 
-// let arr = [1,2,10,15]
-//
-// let calculator = (a,b,c,d) => {
-//     let result = a + b + c + d
-//     console.log(result)
-//     return result
-// }
-// calculator(1,2,10,15)
 
+// let arr = [1,2,10,];
+//
+// function calk(array) {
+//     let suma = 0
+//     for (const item of array) {
+//        suma += item; // suma = suma + item
+//     }
+//     return suma;
+//
+// }
+// console.log(calk(arr));
